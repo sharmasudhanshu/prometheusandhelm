@@ -26,9 +26,9 @@ spec:
           - containerPort: 2020
         env:
         - name: FLUENT_ELASTICSEARCH_HOST
-          value: "10.159.16.185"
+          value: "esip"
         - name: FLUENT_ELASTICSEARCH_PORT
-          value: "9200"
+          value: "esport"
         volumeMounts:
         - name: varlog
           mountPath: /var/log
